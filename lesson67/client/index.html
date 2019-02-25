@@ -8,9 +8,10 @@
     <script src='node_modules/jquery/dist/jquery.min.js'></script>
 </head>
 <body>
+    <div id="users"></div>
     <script>
         jQuery.ajax('http://localhost:8888/student').done(function(r) {
-            console.log(r);
+            $('#users').append(`<div>${r[0]['id']}</div>`)
         })    
     </script>
 </body>

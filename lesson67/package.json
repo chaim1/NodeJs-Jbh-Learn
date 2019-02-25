@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-jbh-learn",
+  "name": "express-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,20 +7,12 @@
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chaim1/NodeJs-Jbh-Learn.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/chaim1/NodeJs-Jbh-Learn/issues"
-  },
-  "homepage": "https://github.com/chaim1/NodeJs-Jbh-Learn#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.16.4",
-    "levenshtein-edit-distance": "^2.0.3"
+    "mysql": "^2.16.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
